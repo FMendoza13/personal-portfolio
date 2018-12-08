@@ -1,49 +1,36 @@
-body {
-    font-family: 'bangers';
-    background-image: url("../personal portfolio/images/skyscraper.jpeg");
-    background-size: cover;
-    margin: 0;
+    .body {
+      margin: 0;
   }
   
-  * {
-    box-sizing: border-box
-  }
   
-  /*NAVBAR*/
   .navbar {
     background-color: black;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
     display: flex;
     justify-content: center;
   }
   
   .navbar a {
+    font-family: 'bungee', cursive;
     font-weight: 200;
     color: rosybrown;
     padding: 14px 16px;
     text-decoration: none;
   }
   
-  .anchor {
-    display: block;
-    position: relative;
-    top: -70px;
-    visibility: hidden;
-  }
-
   .jumbotron {
-    height: 100vh; /*height to 100% of view height*/
-    background: #31b0d5; /*background color to blue*/
-    margin-bottom: 0; /*no bottom margin*/
-  
-    display: flex;
-    flex-direction: column;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 0; 
+    background-image: url("images/baybridge1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .jumbotron-text {
-    /*TAGLINE UNDER NAME*/
+    font-family: 'Bangers', cursive;
     font-weight: 400;
     font-size: 1em;
     color: white;
@@ -52,7 +39,8 @@ body {
   }
   
   .jumbotron-text h1 {
-    /*YOUR NAME*/
+    
+    font-family: 'Monoton', cursive;
     text-transform: uppercase;
     font-weight: 800;
     font-size: 3em;
