@@ -32,6 +32,7 @@
     background-image: url("images/baybridge1.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100%;
   }
 
   .jumbotron-text {
