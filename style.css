@@ -1,11 +1,11 @@
     .body {
       margin: 0;
-      background-image: url("images/skyskraper.jpeg");
+      color: black;
   }
   
   
   .navbar {
-    background-color: black;
+    background-color: white;
     position: fixed; 
     top: 0; 
     width: 100%; 
@@ -60,9 +60,10 @@
   .work {
     position: relative;
     /* float: center; */
-    width: 274px;
+    width: 50%;
     margin: 20px 0 25px;
     overflow: auto;
+    float: center;
   }
   
   /* .work:nth-child(even) {
@@ -90,3 +91,4 @@
     font-family: 'Permanent Marker', cursive;
   }
   
+
